@@ -65,6 +65,12 @@ if all_birthdays.data is not None:
         }
         calendar_events.append(event)
 
+Col1, Col2, Col3 = st.columns(3)
+
+#if st.theme() == 'light':
+
+Col2.image('https://i.imgur.com/law7tvC.png',use_column_width='auto')
+
 st.title("LIFIC BIRTHDAYS")
 
 calendar(events=calendar_events, options=calendar_options, custom_css=custom_css)
