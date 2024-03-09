@@ -82,7 +82,7 @@ for index, row in df.iterrows():
 
 st.subheader("Add your Birthday")
 name = st.text_input("Enter your name")
-birthday = st.date_input("Add your birthday")
+birthday = st.date_input("Enter your birthday (year = 2024 or current year)")
 st.write('Your birthday is:', birthday)
 
 if st.button("Submit Birthday"):
