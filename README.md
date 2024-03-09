@@ -1,3 +1,5 @@
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://birthdaylific.streamlit.app/)
+
 # Birthday-Calendar with Streamlit and Supabase
 
 ## Overview
